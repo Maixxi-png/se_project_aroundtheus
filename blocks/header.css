@@ -1,14 +1,21 @@
 .header {
-  height: 74px;
+  min-height: 74px;
   margin-bottom: 40px;
-  border: 0;
+  border-bottom: 1px solid rgb(84 84 84 / 0.7);
 }
 
 .header__image {
   max-width: 173px;
 }
 
-.header__line {
-  margin-top: 41px;
-  border-bottom: 1px solid #545454;
+@media screen and (max-width: 645px) {
+  .header__image {
+    max-width: 126px;
+    margin-left: 16px;
+  }
+
+  .header {
+    min-height: 55px;
+    width: 100%;
+  }
 }

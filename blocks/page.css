@@ -3,13 +3,18 @@
   background-color: black;
   color: white;
   padding-top: 45px;
+  overflow-x: hidden !important;
 }
 
 .page__section {
   max-width: 880px;
-  width: 100%;
+  width: 90%;
   position: relative;
   margin: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+}
+
+@media screen and (max-width: 645px) {
+  .page {
+    padding-top: 28px;
+  }
 }
