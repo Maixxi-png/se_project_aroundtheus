@@ -32,6 +32,8 @@ This project is a simple tourism website named "Around the US." It showcases bea
 
 https://maixxi-png.github.io/se_project_aroundtheus/
 
+The link above should now work :)
+
 https://drive.google.com/file/d/1CWIwBznUJ1A_RO9uqZ0_XGwlN8Az9UPJ/view?usp=sharing
 
 ## Contributing
